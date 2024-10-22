@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.897);
+    list-style: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mujer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.naranjo{
+    color: rgb(209, 121, 6);
+}
+p{
+    color: white;
+    width: 220px;
+}
+
+.texto{
+    color: rgba(255, 255, 255, 0.87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parrafo1{
+    color: rgba(245, 245, 245, 0.671);
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buy{
+    background-color: black;
+    padding: 20px;
+}
+
+.boton{
+    color: white;
+    background-color:rgba(252, 146, 7, 0.87);
+    border: 1px rgba(252, 146, 7, 0.87);
+    font-size:20px;
+    padding: 5px;
+    width: 130px;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.barra{
+    margin: 0 auto;
+    width: 1200px;
+    color: white;
+}
+
+.borde{
+    border: 6px solid rgba(70, 69, 69, 0.363);
+}
+h2{
+    margin-left: 900px;
+}
